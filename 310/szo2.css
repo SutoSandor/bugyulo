@@ -1,0 +1,262 @@
+body {
+    background-image: url("img/background2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 1280px) {
+    body {
+        background-image: url("img/background2_1280.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;
+        background-color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+}
+
+.betu{
+    font-size: 7.5vw;
+    color: black;
+}
+.betu-e{
+    position: fixed;
+    top: 0px;
+    left: calc(525/1920*100%);
+    font-size: 3vw;
+    color: black;
+}
+.betu-d{
+    position: fixed;
+    top: calc(390/1080*100%);
+    left: calc(525/1920*100%);
+    font-size: 3vw;
+    color: black;
+}
+.betu-k{
+    position: fixed;
+    top: calc(195/1080*100%);
+    left: calc(720/1920*100%);
+   font-size: 3vw;
+    color: black;
+}
+.betu-ny{
+    position: fixed;
+    top: calc(195/1080*100%);
+    left: calc(285/1920*100%);
+    font-size: 3vw;
+    color: black;
+}
+.betu2{
+    position: fixed;
+    top: calc(580/1080*100%);
+    left: calc(1200/1920*100%);
+    font-size: 3.5vw;
+    color: black;
+    padding-left: calc(25/1920*100%);
+}
+#draggable01 {
+    position: fixed;
+    top: calc(20/1080*100%);
+    right: calc(770/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+
+#draggable02 {
+    position: fixed;
+    top: calc(20/1080*100%);
+    right: calc(520/1920*100%);
+    width:calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+
+#draggable03 {
+    position: fixed;
+    top: calc(20/1080*100%);
+    right: calc(270/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+
+#draggable04 {
+    position: fixed;
+    top: calc(20/1080*100%);
+    right: calc(20/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+
+#draggable05 {
+    position: fixed;
+    top: calc(240/1080*100%);
+    right: calc(20/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+
+#draggable06 {
+    position: fixed;
+    top: calc(240/1080*100%);
+    right: calc(270/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+
+#draggable07 {
+    position: fixed;
+    top: calc(240/1080*100%);
+    right: calc(520/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+
+#draggable08 {
+    position: fixed;
+    top: calc(240/1080*100%);
+    right: calc(770/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+#draggable09 {
+    position: fixed;
+    top: calc(460/1080*100%);
+    right: calc(20/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+#draggable10 {
+    position: fixed;
+    top: calc(460/1080*100%);
+    right: calc(270/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+#draggable11 {
+    position: fixed;
+    top: calc(460/1080*100%);
+    right: calc(520/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+#draggable12 {
+    position: fixed;
+    top: calc(460/1080*100%);
+    right: calc(770/1920*100%);
+    width: calc(200/1920*100%);
+    height: calc(200/1080*100%);
+   background-image: url("img/alap.png");
+    background-size: 100% 100%;
+}
+
+#dropZone1, #dropZone2, #dropZone3, #dropZone4, #dropZone5, #dropZone6 ,#dropZone7, #dropZone8 {
+    position: fixed;
+    width: calc(1300/1920*100%);
+    height: calc(400/1080*100%);
+    color: #fff;
+    padding: 10px;
+}
+
+.drop1{top: calc(700/1080*100%); left: calc(640/1920*100%);}
+.drop2{top: calc(700/1080*100%); left: calc(640/1920*100%);}
+.drop3{top: calc(700/1080*100%); left: calc(640/1920*100%);}
+.drop4{top: calc(700/1080*100%); left: calc(640/1920*100%);}
+.drop5{top: calc(700/1080*100%); left: calc(640/1920*100%);}
+.drop6{top: calc(700/1080*100%); left: calc(640/1920*100%);}
+.drop7{top: calc(700/1080*100%); left: calc(640/1920*100%);}
+.drop8{top: calc(700/1080*100%); left: calc(640/1920*100%);}
+
+#go-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    font-size: 35px;
+    z-index: 99;
+    color: #000000;
+}
+
+.fullon:before {
+    font-family: 'H5PFontAwesome4';
+    content: "\f066";
+}
+
+.fulloff:before {
+    font-family: 'H5PFontAwesome4';
+    content: "\f065";
+}
+
+.h5p-joubelui-button {
+    line-height: 35px;
+    height: 35px;
+    width: 35px;
+    margin: 0 0.5em 1em;
+    border-radius: 2em;
+    background: #2baf4e;
+    color: #ffffff;
+    cursor: pointer;
+    border: none;
+    box-shadow: none;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    display: inline-block;
+    text-align: center;
+    text-shadow: none;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+.h5p-question-next:before {
+    font-family: 'H5PFontAwesome4';
+    content: "\f054";
+    padding-right: 0;
+    position: relative;
+    left: 2px;
+}
+
+.h5p-question-back:before {
+    font-family: 'H5PFontAwesome4';
+    content: "\f053";
+    padding-right: 0;
+    position: relative;
+    left: 2px;
+}
+    /* FULLSCREEN */
+:-webkit-full-screen {
+    background-color: transparent;
+}
+.fulloff{
+    cursor: pointer;
+}
